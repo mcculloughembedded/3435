@@ -25,4 +25,5 @@ I printed mine on my stock Creality Ender 3 V2.
 7. Stick on a rubber foot in each of the circular dents on the bottom of *bottom.step*.
 8. Mirror the files in step 1, and repeat steps 2 to 7 for the right half of the keyboard.
 
-../collateral/animations/3435-assembly.gif
+
+![Final Assembly](../collateral/animations/3435-assembly.gif)
