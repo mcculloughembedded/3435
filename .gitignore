@@ -2,3 +2,4 @@
 *.lck
 *-backups/
 *.xml
+**/fp-info-cache
