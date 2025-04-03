@@ -3,11 +3,20 @@ The *3435* is a 34 key split keyboard inspired by the [Clog V3](https://sammohr.
 
 ## Features
 * 34 key split
-* Pinky cluster
 * Kailh Choc V1 low profile switches
+* MX standard key spacing
+* Ortho-linear
+* Vertical key staggering
+* Pinky cluster
+* Two key thumb cluster
 * Wired USB C to PC
 * Integrated microcontroller (ATMega32u4)
 * Fully enclosed case
+
+# Table of Contents
+* [Order PCBs](./instructions/order.md)
+* [Program](./instructions/program.md)
+* [Assembly](./instructions/build.md)
 
 # What's With the Name?
 3435 is my favourite number.
