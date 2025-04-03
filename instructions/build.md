@@ -27,6 +27,6 @@ I printed mine on my stock Creality Ender 3 V2.
 
 
 ## Threaded Insert Assembly
-![Threaded Inserts](../collateral/animations/3435-assembly.gif)
+![Threaded Inserts](../collateral/animations/threaded-insert-assembly.gif)
 ## Final Assembly
 ![Final Assembly](../collateral/animations/3435-assembly.gif)
