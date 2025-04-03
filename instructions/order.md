@@ -43,6 +43,7 @@ Use your discretion for any other listed options.
 
 ## Assembly
 This section is only relevant if JLCPCB will assemble the PCBs for you.
+
 On the order page there is an option to have JLCPCB assemble the PCBs.
 One thing to note here is that the USB-C connector is not on the same side as the rest of the components.
 JLCPCB charges more for assembly on both sides of the PCB.
@@ -55,7 +56,10 @@ Make sure of the orientation of the diodes, crystal oscillator and microcontroll
 I always edit the pick and place file locally and re-upload.
 That way I am left with a correct pick and place file on my computer once all the corrections have been made.
 
-Also make sure that JLCPCB stocks the parts in the bill of material.
+Also make sure that JLCPCB stocks the parts in the bill of materials.
 Again, they have an online interface to help with this.
+
+KiCad does not export the bill of materials and pick in place file in the correct format.
+You have to edit manually according to the [JLCPCB documentation](https://jlcpcb.com/help/article/How-to-generate-the-BOM-and-Centroid-file-from-KiCAD).
 
 [^1]: In short, ENIG is better, HASL is cheaper. I managed fine with HASL.

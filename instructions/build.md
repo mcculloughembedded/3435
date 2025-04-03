@@ -8,10 +8,11 @@ The rest of the components can be soldered with a soldering iron, although there
 Make sure to solder the diodes, crystal oscillator and microcontroller in the correct orientation!
 
 PCB manufacturing outlets often provide an assembly service for an extra fee.
+See [here](./order.md#Assembly).
 
 # Mechanical Assembly
 
-Before assembling the keyboard, make sure the correct bootloader has been loaded!
+Before assembling the keyboard, make sure the [correct bootloader](./program.md#Bootloader) has been loaded!
 
 The case is designed to be 3D printed on an FDM printer without supports.
 I printed mine on my stock Creality Ender 3 V2.
