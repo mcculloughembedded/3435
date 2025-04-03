@@ -1,7 +1,7 @@
 # The 3435
 The *3435* is a 34 key split keyboard inspired by the [Clog V3](https://sammohr.dev/keyboards).
 
-![3435](./collateral/main.svg)
+![Title Image](./collateral/main.svg)
 
 ## Features
 * 34 key split
@@ -20,6 +20,8 @@ The *3435* is a 34 key split keyboard inspired by the [Clog V3](https://sammohr.
 * [Program](./instructions/program.md)
 * [Assembly](./instructions/build.md)
 * [Bill of Materials](./instructions/bill-of-materials.md.md)
+
+![Secondary Image](./collateral/main.svg)
 
 # What's With the Name?
 3435 is my favourite number.
