@@ -1,6 +1,8 @@
 # The 3435
 The *3435* is a 34 key split keyboard inspired by the [Clog V3](https://sammohr.dev/keyboards).
 
+![3435](./collateral/main.svg)
+
 ## Features
 * 34 key split
 * Kailh Choc V1 low profile switches
