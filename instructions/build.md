@@ -26,4 +26,7 @@ I printed mine on my stock Creality Ender 3 V2.
 8. Mirror the files in step 1, and repeat steps 2 to 7 for the right half of the keyboard.
 
 
+## Threaded Insert Assembly
+![Threaded Inserts](../collateral/animations/3435-assembly.gif)
+## Final Assembly
 ![Final Assembly](../collateral/animations/3435-assembly.gif)
