@@ -1,3 +1,4 @@
-*.prl
+*.kicad_prl
+*.lck
 *-backups/
 *.xml
