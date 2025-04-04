@@ -14,14 +14,14 @@ I have used it daily in a professional setting for more than a year.
 * Vertical key staggering
 * Pinky cluster
 * Two key thumb cluster
-* Wired USB C to PC
+* Wired USB-C to PC
 * Integrated microcontroller (ATMega32u4)
 * Fully enclosed case
 
 # Table of Contents
 * [Order PCBs](./instructions/order.md)
 * [Program](./instructions/program.md)
-* [Assembly](./instructions/build.md)
+* [Assemble](./instructions/build.md)
 * [Bill of Materials](./instructions/bill-of-materials.md)
 
 ![Secondary Image](./collateral/secondary.svg)

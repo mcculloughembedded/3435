@@ -46,7 +46,7 @@ This section is only relevant if JLCPCB will assemble the PCBs for you.
 
 On the order page there is an option to have JLCPCB assemble the PCBs.
 One thing to note here is that the USB-C connector is not on the same side as the rest of the components.
-JLCPCB charges more for assembly on both sides of the PCB.
+JLCPCB charges more to assemble both sides of the PCB.
 
 The most economic way to do this is to have JLCPCB assemble the bottom side only.
 Be warned though, soldering a USB-C connector is not a trivial task!
