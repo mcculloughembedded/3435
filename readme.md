@@ -10,6 +10,7 @@ I have used it daily in a professional setting for more than a year.
 * Kailh Choc V1 low profile switches
 * MX standard key spacing
 * Ortholinear
+* Angled columns
 * Vertical key staggering
 * Pinky cluster
 * Two key thumb cluster
