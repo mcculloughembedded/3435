@@ -1,34 +1,18 @@
 I use [JLCPCB](https://jlcpcb.com/) for all my PCBs.
-The requirements for a different PCB manufacturer will be similar but different to what is outlined here.
 
-# PCB Output Files
+# JLCPCB Datapacks
+Each half of the keyboard is its own PCB order.
+There are datapacks on the [Releases](https://github.com/mcculloughembedded/3435/releases) page with the required output files to order the PCBs from JLCPCB.
+These datapacks include a bill of materials and pick and place file excluding all top side components and the hot-swap sockets on the bottom side.
 
-At a minimum, PCB manufacturers require gerber and drill files to make the PCBs.
+> :warning: **Disclaimer**<br>
+The datapacks are unverified.
+I did not have JLCPCB assemble everything for me.
+Make sure to double check everything before ordering!
 
-Consult the requirements of your chosen PCB manufacturer to know what they require.
-For example, JLCPCB's website states that they require the following layers
-* Top Copper
-* Bottom Copper
-* Top Solder Mask
-* Bottom Solder Mask
-* Top Silkscreen
-* Bottom Silkscreen
-* Board Outline
-
-Each half of the keyboard is it's own [KiCad](https://www.kicad.org/) project.
-Install KiCad and open each project using the *.kicad_pro* files in the `/pcbs/left` and `/pcbs/right` folders.
-
-PCB manufactures often specify how to export gerber files correctly for different PCB software.
-I used KiCad 7 and followed [these instructions](https://jlcpcb.com/help/article/how-to-generate-gerber-and-drill-files-in-kicad-7).
-
-If you would like JLCPCB to assemble the PCBs for you, you must provide them with a bill of materials and a pick and place file.
-JLCPCB has very specific requirements for these files.
-KiCad does not export these files in the correct format for JLCPCB.
-You have to edit them manually.
-Consult the [JLCPCB documentation](https://jlcpcb.com/help/article/How-to-generate-the-BOM-and-Centroid-file-from-KiCAD) for more details.
+If you like to generate the output files yourself, there is a short discussion about doing so in the [Do It Yourself](#Do It Yourself) section.
 
 # Order from JLCPCB
-
 ## Gerbers
 The following options must be selected when uploading the output files.
 Use your discretion for any other listed options.
@@ -58,5 +42,35 @@ That way I am left with a correct pick and place file on my computer once all th
 
 Also make sure that JLCPCB stocks the parts in the bill of materials.
 Again, they have an online interface to help with this.
+
+# Do It Yourself
+
+The requirements for a different PCB manufacturer will be similar but different to what is outlined here.
+
+## PCB Output Files
+
+At a minimum, PCB manufacturers require gerber and drill files to make the PCBs.
+
+Consult the requirements of your chosen PCB manufacturer to know what they require.
+For example, JLCPCB's website states that they require the following layers
+* Top Copper
+* Bottom Copper
+* Top Solder Mask
+* Bottom Solder Mask
+* Top Silkscreen
+* Bottom Silkscreen
+* Board Outline
+
+Each half of the keyboard is it's own [KiCad](https://www.kicad.org/) project.
+Install KiCad and open each project using the *.kicad_pro* files in the `/pcbs/left` and `/pcbs/right` folders.
+
+PCB manufactures often specify how to export gerber files correctly for different PCB software.
+I used KiCad 7 and followed [these instructions](https://jlcpcb.com/help/article/how-to-generate-gerber-and-drill-files-in-kicad-7).
+
+If you would like JLCPCB to assemble the PCBs for you, you must provide them with a bill of materials and a pick and place file.
+JLCPCB has very specific requirements for these files.
+KiCad does not export these files in the correct format for JLCPCB.
+You have to edit them manually.
+Consult the [JLCPCB documentation](https://jlcpcb.com/help/article/How-to-generate-the-BOM-and-Centroid-file-from-KiCAD) for more details.
 
 [^1]: In short, ENIG is better, HASL is cheaper. I managed fine with HASL.
