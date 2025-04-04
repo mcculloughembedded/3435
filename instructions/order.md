@@ -12,7 +12,7 @@ Some components may be out of stock or no longer available.
 In these cases you will have to select an alternative part from the JLC component library.
 Make sure to double check everything before ordering!
 
-If you would like to generate the output files yourself, there is a short discussion about doing so in the [Do It Yourself](#Do It Yourself) section.
+If you would like to generate the output files yourself, there is a short discussion about doing so in the [Do It Yourself](#do-it-yourself) section.
 
 # Order from JLCPCB
 ## Gerbers
