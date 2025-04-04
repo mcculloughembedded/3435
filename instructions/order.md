@@ -1,4 +1,4 @@
-I use JLCPCB for all my PCBs.
+I use [JLCPCB](https://jlcpcb.com/) for all my PCBs.
 The requirements for a different PCB manufacturer will be similar but different to what is outlined here.
 
 # PCB Output Files
@@ -16,7 +16,7 @@ For example, JLCPCB's website states that they require the following layers
 * Board Outline
 
 Each half of the keyboard is it's own [KiCad](https://www.kicad.org/) project.
-Install KiCad and open each project using the *.kicad_pro* files in the `pcbs/left` and `pcbs/right` folders.
+Install KiCad and open each project using the *.kicad_pro* files in the `/pcbs/left` and `/pcbs/right` folders.
 
 PCB manufactures often specify how to export gerber files correctly for different PCB software.
 I used KiCad 7 and followed [these instructions](https://jlcpcb.com/help/article/how-to-generate-gerber-and-drill-files-in-kicad-7).
@@ -58,8 +58,5 @@ That way I am left with a correct pick and place file on my computer once all th
 
 Also make sure that JLCPCB stocks the parts in the bill of materials.
 Again, they have an online interface to help with this.
-
-KiCad does not export the bill of materials and pick in place file in the correct format.
-You have to edit manually according to the [JLCPCB documentation](https://jlcpcb.com/help/article/How-to-generate-the-BOM-and-Centroid-file-from-KiCAD).
 
 [^1]: In short, ENIG is better, HASL is cheaper. I managed fine with HASL.

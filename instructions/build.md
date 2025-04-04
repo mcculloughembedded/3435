@@ -17,7 +17,7 @@ Before assembling the keyboard, make sure the [correct bootloader](./program.md#
 The case is designed to be 3D printed on an FDM printer without supports.
 I printed mine on my stock Creality Ender 3 V2.
 
-1. 3D print *top.step*, *bottom.step* and *plate.step* from the `/mechanical` folder.
+1. 3D print `top.step`, `bottom.step` and `plate.step` from the `/mechanical` folder.
 2. Push fit the threaded inserts into the holes on the bottom of *top.step*.
    This is best done by heating up the threaded inserts with a soldering iron before pushing them into position.
 3. Clip the switches into their places on the top side of *plate.step*.
