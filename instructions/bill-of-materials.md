@@ -33,10 +33,10 @@ I highly recommend that you double check everything before ordering.
 | ------------------- | ----------------- | --------- | ------------------------- |
 | Case Top Left       | top.step          | 1         |                           |
 | Case Bottom Left    | bottom.step       | 1         |                           |
-| Case Plate Left     | plate .step       | 1         |                           |
+| Case Plate Left     | plate.step        | 1         |                           |
 | Case Top Right      | top.step          | 1         | Mirrored                  |
 | Case Bottom Right   | bottom.step       | 1         | Mirrored                  |
-| Case Plate Right    | plate .step       | 1         | Mirrored                  |
+| Case Plate Right    | plate.step        | 1         | Mirrored                  |
 | Threaded Inserts    | M2x3x3.5mm        | 22        |                           |
 | Screws              | M2x7              | 22        |                           |
 | Rubber Ball Feet    | 8mm diameter      | 12        | Half dome adhesive bottom |
